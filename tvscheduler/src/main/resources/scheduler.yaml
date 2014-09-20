@@ -1,7 +1,7 @@
 # Amazon Credentials
 amazonCredentials:
-	accessKeyId: AKIAJYW74ZI6ITXGF7LA
-	secretKey: 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
+	accessKeyId: XXXXX
+	secretKey: XXXX
 
 # Queue that holds details of Schedules awaiting publication
 publishQueue:
