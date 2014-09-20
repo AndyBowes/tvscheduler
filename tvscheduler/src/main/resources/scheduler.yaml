@@ -1,1 +1,23 @@
-amazonKey: testKey
+# Amazon Credentials
+amazonCredentials:
+	accessKeyId: AKIAJYW74ZI6ITXGF7LA
+	secretKey: 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
+
+# Queue that holds details of Schedules awaiting publication
+publishQueue:
+	queueUrl: https://sqs.eu-west-1.amazonaws.com/596274138985/PublishSchedule
+	maxNumberOfMessages: 1
+	waitTime: 10
+	visibilityTimeout: 60
+	
+# Details of the Server that files will be sent & received from	
+ftpServer:
+	username:spineii-user
+	password:vertebrae
+	host:127.0.0.1
+	port:
+	# The directory that schedules will be published to
+	targetPath:
+	# The directory that updated schedules will be received from
+	sourcePath:
+	pollingPeriod: 60
